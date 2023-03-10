@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="libroquijote.css"?>
+
+<libro>
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes</autor>
+        <personajes>
+            <nombre>Alonso Quijano</nombre>
+            <nombre>Sancho Panza</nombre>
+            <nombre>Dulcinea del Toboso</nombre>
+        </personajes>
+</libro>

@@ -1,0 +1,15 @@
+titulo{
+    font-size: large;
+    background-color: red;
+    color: white;
+}
+
+autor{
+    color: blue;
+    font-style: italic;
+}
+libro,titulo,autor,personajes,nombre{
+    display: list-item;
+    list-style: none;
+    margin: 20px;
+}

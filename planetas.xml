@@ -1,0 +1,36 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<! DOCTYPE sistemasolar [
+<! ELEMENT sistemasolar (planetas*)> 
+<! ELEMENT planetas (nombre*,diametroequarorial,periodorotacional)>
+<! ELEMENT nombre(#PCDATA)>
+<! ELEMENT diametroequarorial ANY>
+<! ELEMENT periodorotacional (#PCDATA)>
+<! ELEMENT nombre EMPTY>
+]>
+<sistemasolar>
+    <planetas>
+        <nombre>Mercurio</nombre>
+        <diametroequarorial>0.39</diametroequarorial>
+        <periodorotacional>58.6667</periodorotacional>
+    </planetas>
+    <planetas>
+        <nombre>Venus</nombre>
+       <diametroequarorial>0.95</diametroequarorial>
+       <periodorotacional>243</periodorotacional>
+    </planetas>
+    <planetas>
+        <nombre>Tierra</nombre>
+        <diametroequarorial>1</diametroequarorial>
+        <periodorotacional>1</periodorotacional>
+    </planetas>
+    <planetas>
+        <nombre>Marte</nombre>
+        <diametroequarorial>0.53</diametroequarorial>
+        <periodorotacional>1.03</periodorotacional>
+    </planetas>
+    <planetas>
+        <nombre>Jupiter</nombre>
+        <diametroequarorial>11.2</diametroequarorial>
+        <periodorotacional>0.414</periodorotacional>
+    </planetas>
+</sistemasolar>

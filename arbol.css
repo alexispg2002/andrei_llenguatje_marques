@@ -1,0 +1,130 @@
+.actions{
+    margin: 1 em auto;
+    text-align: center;
+}
+
+.arbol-container{
+    max-width: 620px;
+    width: 100%;
+    margin: 1 em auto;
+    position: relative;
+}
+
+.arbol{
+    width: 100%;
+    filter: brightness(0,4);
+}
+
+.balls img{
+    position: absolute;
+    width: 8%;
+    height: auto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#velocidad, 
+#variacion{
+    padding: 6px ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+#start{
+    padding: 7px 20px;
+    background-color: rgb(15, 91, 190);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.balls-blue1{
+    left: 24%;
+    bottom: 18%;
+}
+
+.balls-green1{
+    left: 48%;
+    bottom: 25%;
+}
+
+.balls-red1{
+    left: 47%;
+    top: 8%;
+}
+
+.balls-yellow1{
+    right: 53%;
+    top: 33%;
+}
+
+.balls-blue2{
+    right: 28%;
+    top: 47%;
+}
+
+.balls-green2{
+    right: 36%;
+    top: 30%;
+}
+
+.balls-red2{
+    left: 34%;
+    bottom: 39%;
+}
+.balls-yellow2{
+    right: 22%;
+    bottom: 19%;
+}
+
+@keyframes light1{
+    
+    from{
+        filter: brightness( 1 );
+    }
+    to{
+        filter: brightness(1,8) drop-shadow(0 0 20px rgba(247, 210, 0));
+    }
+
+}
+
+@keyframes light1{
+    0%
+    35%{
+    filter: brightness(1.8) drop-shadow(0 0 20px rgb(247, 210, 0));
+    }
+    45%
+    100%{
+    filter: brightness(1);
+    }   
+}
+
+@keyframes light2{
+    0%
+    35%{
+        filter: brightness(1.8) drop-shadow(0 0 20px rgb(247, 210, 0));
+    }
+    45%
+    100%{
+        filter: brightness(1);
+    }
+}
+
+@keyframes light3{
+    0%
+    25%{
+        filter: brightness(1.8) drop-shadow(0 0 20px rgb(247, 210, 0));
+    }
+    25%
+    50%{
+        filter: brightness(1);
+    }
+    50%
+    75%{
+        filter: brightness(1.8) drop-shadow(0 0 20px rgb(247, 210, 0));
+    }
+    75%
+    100%{
+        filter: brightness(1);
+    }
+}

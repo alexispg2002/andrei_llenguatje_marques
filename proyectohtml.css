@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    font-family: 'sans-serif', Courier, monospace;
+    font-size: large;
+}
+h1 {
+    background-color: red;
+
+}
+ol {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    text-align: left;
+}
+h2 {
+    color: brown;
+}
+img {
+    align-items: center;
+}
+TD {
+    color: red;
+
+}
+table {
+    border-collapse: collapse;
+    border: 6em;
+}
